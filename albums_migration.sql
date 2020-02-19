@@ -9,3 +9,6 @@ CREATE TABLE IF NOT EXISTS albums (
     genre VARCHAR(50),
     PRIMARY KEY (id)
 );
+-- add a row of data
+
+INSERT INTO albums (artist, name, release_date, sales, genre) values ('eagles', 'hotel california', '1978', '45353453', 'rock')
